@@ -52,7 +52,7 @@
 
 <body class="body-8">
   <script>
-    const localLang = localStorage.getItem("local") || "en-lang";
+    const localLang = localStorage.getItem("local") || "jp-lang";
     const language = (key, local) => {
       const sentences = {
         // Navbar
@@ -711,7 +711,7 @@
 <!-- Language Toggle -->
 <script>
   document.addEventListener('DOMContentLoaded', function () {
-    const language = localStorage.getItem('local') || '';
+    const language = localStorage.getItem('local') || 'jp-lang';
     const languageToggle = document.getElementById('LanguageToggle');
 
     if (language === 'en-lang') {
